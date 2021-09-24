@@ -88,7 +88,7 @@ MonoBehaviour:
   trnsShadow: {fileID: 1836691544104750223}
   gravity: -300
   groundVelocity: {x: 0, y: 0}
-  verticalVelocity: 100
+  verticalVelocity: 0
   isGrounded: 0
 --- !u!1 &1836691543173288944
 GameObject:
