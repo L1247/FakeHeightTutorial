@@ -69,6 +69,13 @@ public class Dude : MonoBehaviour
            
         }
 
+        if (Input.GetMouseButtonDown(1))
+        {
+            var fakeHeightObject = GetComponent<FakeHeightObject>();
+            fakeHeightObject.isGrounded       = false;
+            fakeHeightObject.verticalVelocity = 100;
+        }
+
     }
 
     void Animate()
